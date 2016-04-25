@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+	<head>
+		<title>FAQ</title>
+
+		<!-- Fonts -->
+		<link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+
+		<!-- CSS -->
+		<link rel="stylesheet" href="stylesheets/reset.css">
+		<link rel="stylesheet" href="stylesheets/style.css">
+	</head>
+	<body>
+		<header>
+			<div class='container'>
+				<nav>
+					<a href="index.html">Return</a>
+				</nav>
+				<h1>FAQ</h1>
+			</div>
+		</header>
+
+		<main>
+			<div class='container'>
+				<div id='q1'>Show/hide<br>
+					<h3>Q: How cool is this?</h3>
+
+					<p>A: It's awesome</p>
+				</div>
+
+				<br>
+				<div id='q2'>Show/hide<br>
+					<h3>Q: Why are you selling it?</h3>
+
+					<p>A: I need money! I'm a college student.</p>
+				</div>
+
+				<br>
+				<div id='q3'>Show/hide<br>
+					<h3>Q: Can it make me super strong?</h3>
+
+					<p>A: No</p>
+				</div>
+			</div>
+		</main>
+
+		<footer>
+			<div class='container'>
+				<div class='subleft'>
+					<div class='contact'>
+						<h5>Contact Us</h5>
+						<p class='ama'>Amazeriffic!</p>
+						<p>555 Fiftieth Street</p>
+						<p>Asheville, NC 28801</p>
+					</div>
+				</div>
+				<div class='subright'>
+					<div class='sitemap'>
+						<h5>Sitemap</h5>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="#">About Us</a></li>
+							<li><a href="#">Privacy</a></li>
+							<li><a href="#">Support</a></li>
+							<li><a href="faq.html">FAQ</a></li>
+							<li><a href="#">Careers</a></li>
+						</ul>	
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+		<script>
+			"using strict";
+
+			$("#q1").click(function(){
+				$("#q1").children("").toggle();
+			});
+
+			$("#q2").click(function(){
+				$("#q2").children().toggle();
+			});
+
+			$("#q3").click(function(){
+				$("#q3").children().toggle();
+			});
+		</script>
+	</body>
+</html>

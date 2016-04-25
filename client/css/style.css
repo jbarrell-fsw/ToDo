@@ -1,0 +1,131 @@
+body {
+	background: #f9e933;
+}
+
+header, main, footer {
+	min-width: 855px;
+}
+
+header .container, main .container, footer .container {
+	max-width: 855px;
+	margin: auto;
+}
+
+header {
+	padding: 20px;
+	background: white;
+	overflow: auto;
+	border: 1px solid lightgrey;
+}
+
+header h1 {
+	font-family: 'Ubuntu', sans-serif;
+	font-style: italic;
+	font-size: 3em; 
+	color: red;
+	float: left;
+	width: 570px;
+}
+
+header nav {
+	font-size: 1em;
+	float: right;
+	width: 285px;
+}
+
+main {
+	padding-top: 15px;
+	font-family: 'Droid Sans', sans-serif;
+	background: white;
+	overflow: hidden;
+	border: 1px solid lightgrey;
+	padding-bottom: 15px;
+}
+
+main .subleft {
+	width: 570px;
+	float: left;
+}
+
+main h2 h3 {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+main h2 {
+	font-size: 2em;
+	padding-bottom: 5px;
+	padding-top: 10px;
+}
+
+main h3 {
+	padding-top: 15px;
+	padding-bottom: 5px;
+	font-size: 1.5em;
+}
+
+main .subright {
+	width: 285px;
+	float: right;
+}
+
+footer {
+	font-family: 'Droid Sans', sans-serif;
+	padding-top: 15px;
+	overflow: hidden;
+}
+
+footer .contact {
+	width: 570px;
+	float: left;
+}
+
+footer .contact h5 {
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 1.15em;
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+
+footer .contact .ama {
+	font-family: 'Ubuntu', sans-serif;
+	font-style: italic;
+	color: red;
+}
+
+footer .sitemap {
+	width: 285px;
+	text-align: left;
+	float: right;
+}
+footer .sitemap h5 {
+	font-family: 'Droid Sans', sans-serif;
+	padding-top: 15px;
+}
+
+footer .sitemap ul li {
+	padding: 5px 0px 5px 0px;
+}
+
+a {
+	text-decoration: none;
+	color: red;
+	font-family: 'Droid Sans', sans-serif;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.tabs a span {
+	display: inline-block;
+	border-radius: 5px 5px 0 0;
+	width: 100px;
+	margin-right: 10px;
+	text-align: center;
+	background: #ddd;
+	padding: 5px;
+}
+
+.tabs a span.active {
+	background: #eee;
+}
